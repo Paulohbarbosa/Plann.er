@@ -90,8 +90,8 @@ export function Home() {
 
         const { tripId } = response.data
 
-        // navigate(`/trips/${tripId}`)
-        navigate('/trips/123')
+        navigate(`/trips/${tripId}`)
+        // navigate('/trips/123')
     }
     return (
         <div className="h-screen flex items-center justify-center bg-pattern bg-no-repeat bg-center">
